@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sai Charan | Full Stack .NET Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- 3D Background -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+<style>
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f2027;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0,0,0,0.9);
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#vanta-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.highlight {
+    color: #00f2fe;
+}
+
+section { padding: 80px 0; }
+
+.card {
+    background: #1c2b36;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+.card:hover { transform: translateY(-10px); }
+
+.bg-dark-section { background: #16232c; }
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">Sai Charan</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+<div id="vanta-bg"></div>
+
+<div class="container hero-content">
+<h5>FULL STACK .NET DEVELOPER</h5>
+
+<h1 class="display-4 fw-bold">
+Hi, I'm <span class="highlight">Sai Charan Shikharammetla</span>
+</h1>
+
+<p class="lead">
+Building scalable web applications & AI-powered solutions.
+</p>
+
+<a href="resume.pdf" download class="btn btn-info me-3">
+Download Resume
+</a>
+
+<a href="#projects" class="btn btn-outline-light">
+View Projects
+</a>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="bg-dark-section">
+<div class="container">
+<h2 class="text-center mb-5">Projects</h2>
+
+<div class="row">
+
+<div class="col-md-6">
+<div class="card p-4 shadow">
+<h4>
+<a href="project1.html" class="text-info text-decoration-none">
+AI Smart Surveillance System
+</a>
+</h4>
+<p>AI-based real-time surveillance system.</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card p-4 shadow">
+<h4>
+<a href="project2.html" class="text-info text-decoration-none">
+Auto Camera Focus System
+</a>
+</h4>
+<p>Arduino + OpenCV based monitoring system.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<div class="container text-center">
+<h2>Contact Me</h2>
+<p>📞 +91 7601093686</p>
+<p>📧 Saicharanshikharammetla@gmail.com</p>
+</div>
+</section>
+
+<footer>
+© 2026 Sai Charan
+</footer>
+
+<!-- 3D Animation Script -->
+<script>
+VANTA.NET({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  backgroundColor: 0x0f2027,
+  color: 0x00f2fe
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
